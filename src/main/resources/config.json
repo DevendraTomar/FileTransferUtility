@@ -1,0 +1,40 @@
+{
+	"dev": [{
+		"hostname": "XXXX.XX",
+		"username": "xxxxx",
+		"password": "xxxx",
+		"target_dir": "/root/check",
+		"files": [{
+			"source_file": "D:/temp/commons.txt"
+		}]
+	}],
+	"qa": [{
+		"hostname": "",
+		"username": "",
+		"password": "",
+		"target_dir": "",
+		"files": [{
+			"source_file": ""
+		},
+			{
+				"source_file": ""
+			}
+		]
+
+	},
+		{
+			"hostname": "",
+			"username": "",
+			"password": "",
+			"target_dir": "",
+			"files": [{
+				"source_file": ""
+			},
+				{
+					"source_file": ""
+				}
+			]
+
+		}
+	]
+}
