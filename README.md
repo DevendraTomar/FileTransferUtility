@@ -38,16 +38,11 @@ ii) Create a folder with name conf inside the seperate folder (temp) and place c
 </ul>
 
 <br/>
-iii) In order to initiate the file job :<br/>
+iii) In order to initiate the job :<br/>
 <b>java -jar FileTransferUtility-jar-with-dependencies.jar [qa/dev] </b><br/>
 <br/>
-iv) Based on the configuration set in the config.json file qa or dev section would get picked up and processed.<br/>
+iv) Based on the configuration set in the config.json file, qa or dev section would get picked up and processed.<br/>
 
 <br/>
 <b>Configure config.json :</b><br/>
-
-
-{ "dev": [{ "hostname": "<hostname/ip>", "username": "<username>", "password": "<password>", "target_dir": "<target-directory>, if target-directory if not present , the system will create the same and then transfer", "files": [{ "source_file": "<absolute-path-of-the-source-file-that-we-need-to-transfer>" }, { "source_file": "<absolute-path-of-the-2nd-source-file-that-we-need-to-transfer>" }] }], "qa": [{ "hostname": "host1", "username": "user1", "password": "pass1", "target_dir": "/home/admin/1", "files": [{ "source_file": "D:/abc.txt" }] }, { "hostname": "host2", "username": "user2", "password": "pass2", "target_dir": "/home/admin/1", "files": [{ "source_file": "D:/abc.txt" }] }] }
-
-
-
+![](config.png)
