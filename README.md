@@ -45,4 +45,5 @@ iv) Based on the configuration set in the config.json file, qa or dev section wo
 
 <br/>
 <b>Configure config.json :</b><br/>
-![](config.png)
+
+ ![](config.png)
